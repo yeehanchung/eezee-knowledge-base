@@ -9,9 +9,10 @@ The learnings are not limited to through code reviews.
 - [Git](#git)
 - [Quotes](#quotes)
 - [React.js](#reactjs)
-- [`styled-jsx`](#css-styling)
+- [styled-jsx](#styled-jsx)
+- [Contributors](#contributors)
 
-### Advice
+## Advice
 
 - Always good to remind the pair programmer where the last code review left off.
 - 3 principles by Jasper:
@@ -32,7 +33,7 @@ The learnings are not limited to through code reviews.
   - Open terminal: Ctrl + ` (tilde)
 - When code refactoring, let the errors come out, and not to be afraid. We can solve the errors step-by-step by checking out the right bar.
 
-### Code Quality
+## Code Quality
 
 - Removing codes shouldn't be an afterthought.
 - Be careful of when naming anything.
@@ -47,7 +48,7 @@ The learnings are not limited to through code reviews.
 - Reason of naming functions alphabetically is important because **IntelliSense** provides us the pattern, so we can get and use the functions conveniently.
 - Sometimes we need more time to look into code in detail, so no worries.
 
-#### Implementation
+### Implementation
 
 We have to follow this pattern of writing clean React components. Notice the parenthesis.
 
@@ -67,7 +68,7 @@ We have to follow this pattern of writing clean React components. Notice the par
 </>
 ```
 
-### Git
+## Git
 
 - Branch frequently, commit often.
 - Make small, single-purpose commits.
@@ -80,9 +81,9 @@ We have to follow this pattern of writing clean React components. Notice the par
 
 > "If the only tool you have is a hammer, you tend to see every problem as a nail."
 
-### React.js
+## React.js
 
-#### General
+### General
 
 - Do not pass props down the component tree.
   - props dwelling causes debugging more challenging because certain props might change during midway.
@@ -93,7 +94,7 @@ We have to follow this pattern of writing clean React components. Notice the par
 - Name props using English, and not number.
   - e.g. `size="s"` instead of `size={4}`
 
-### `styled-jsx`
+## `styled-jsx`
 
 - Aware of unused CSS styling.
 - Design system `<Row>` & `<Col>` are sufficient, do not use `margin left & right`, or `display: flex`;
@@ -102,7 +103,7 @@ We have to follow this pattern of writing clean React components. Notice the par
 
 > [vercel/styled-jsx](https://github.com/vercel/styled-jsx)
 
-### Contributors
+## Contributors
 
 - Jasper Yap
 - Yee Han
