@@ -13,7 +13,7 @@ It's 2022. Who doesn't like things short and simple? Thus, this guide is kept as
 
 ### Example
 
-```shell
+```
 # A commit message:
 
 feat(navbar): add shopping list
