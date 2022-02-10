@@ -16,13 +16,12 @@ It's 2022. Who doesn't like things short and simple? Thus, this guide is kept as
 ```shell
 # A commit message:
 
-1. feat: add shopping list
-2. feat(navbar): add shopping list
+feat(navbar): add shopping list
 
 # Breakdown:
 
 1. feat:                    > Type of commit
-2  feat(navbar)             > Scope (changes to a single component)
+2  (navbar)                 > Scope (omit this if changes are to more than two components)
 3. add                      > Present tense
 4. add shopping list        > Summary of the commit
 5. feat: add shopping list  > All are lowercase
@@ -30,7 +29,6 @@ It's 2022. Who doesn't like things short and simple? Thus, this guide is kept as
 # Notes:
 
 - Do not use TITLE CASE or PAST TENSE.
-- If involves more than TWO components, omit the scope.
 ```
 
 - `build`: build related changes. E.g. adding new dependencies; npm.
