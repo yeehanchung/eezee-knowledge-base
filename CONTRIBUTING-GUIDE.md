@@ -45,6 +45,7 @@ feat(navbar): add shopping list
 
 - If PR does more than one thing, please split it.
 - Keep PR small with clear and concise commit message.
+- PR could be created to fix issues that come from **Canny**.
 - Your teammates appreciate them as PR is easier to be reviewed.
 
 ### New PR?
@@ -74,7 +75,7 @@ feat(navbar): add shopping list
 
 ### Tips
 
-Linking a PR to an issue using a keyword.
+- Linking a PR to an issue using a keyword.
 
 You can link a pull request to an issue by using a supported keyword in the pull request's description or in a commit message (please note that the pull request must be on the default branch).
 
