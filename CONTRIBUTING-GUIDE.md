@@ -50,9 +50,39 @@ feat(navbar): add shopping list
 ### New PR?
 
 - All PR should be opened against the `main`/`master` branch.
+- MUST use template below:
+
+```
+> Input examples: Yes (with elaboration), date, N/A, No, etc.
+
+## Requested on Canny? (tag GitHub issue if applicable)
+
+## Figma Link
+
+## Reviewed by `PMs`?
+
+> E.g. Yes with elaboration, date, N/A, etc.
+
+## Reviewed by `UI/UX Designers`?
+
+## Reviewed by `QA`?
+
+## Overview
+
+## Test Plan (screenshots, videos, etc.)
+```
+
+### Tips
+
+Linking a PR to an issue using a keyword.
+
+You can link a pull request to an issue by using a supported keyword in the pull request's description or in a commit message (please note that the pull request must be on the default branch).
+
+- `close`, `closes`, `closed`, `fix`, `fixes`, `fixed`, `resolve`, `resolves`, `resolved`
 
 ## References
 
+- [Linking a PR to an issue using a keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
 - [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [Git commit message convention that you can follow](https://dev.to/i5han3/git-commit-message-convention-that-you-can-follow-1709)
