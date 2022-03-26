@@ -1,15 +1,19 @@
-# EEZEE - Learnings
+# Eezee Knowledge Base
 
 The learnings are not limited to through code reviews.
+
+> "If the only tool you have is a hammer, you tend to see every problem as a nail."
 
 ## Table of Contents
 
 - [Advice](#advices)
 - [Code Quality](#code-quality)
+- [Visual Studio Code Shortcuts](#visual-studio-code-crucial-shortcuts)
 - [Git](#git)
 - [Quotes](#quotes)
 - [React.js](#reactjs)
 - [styled-jsx](#styled-jsx)
+- [**Reading Materials**](#reading-materials)
 - [Contributors](#contributors)
 
 ## Advice
@@ -25,13 +29,9 @@ The learnings are not limited to through code reviews.
 - Do not [premature optimization](https://ubiquity.acm.org/article.cfm?id=1513451).
   > "It simply means that trying to optimize before knowing WHERE you need to optimize will hurt you."
 - Learning posture is important during pair programming as there are a lot of signals interchanging during the process.
-- Shortcuts on **VSCode** improve productivity by miles.
-  - Navigating around files, functions, codes, windows, etc.
-  - Fold/Unfold functions: [Link](https://stackoverflow.com/questions/30067767/how-do-i-collapse-sections-of-code-in-visual-studio-code-for-windows)
-  - Focus mode: Ctrl + K -> Z
-  - **Search/review functions**: Ctrl + Shift + O
-  - Open terminal: Ctrl + ` (tilde)
 - When code refactoring, let the errors come out, and not to be afraid. We can solve the errors step-by-step by checking out the right bar.
+
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
 
 ## Code Quality
 
@@ -47,6 +47,8 @@ The learnings are not limited to through code reviews.
 - Official comments must be in all-caps.
 - Reason of naming functions alphabetically is important because **IntelliSense** provides us the pattern, so we can get and use the functions conveniently.
 - Sometimes we need more time to look into code in detail, so no worries.
+
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
 
 ### Implementation
 
@@ -68,6 +70,8 @@ We have to follow this pattern of writing clean React components. Notice the par
 </>
 ```
 
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
+
 ## Git
 
 - Branch frequently, commit often.
@@ -77,11 +81,13 @@ We have to follow this pattern of writing clean React components. Notice the par
 
 > [vcs/git-best-practices-git-commit](https://www.perforce.com/blog/vcs/git-best-practices-git-commit)
 
-### Quotes
+- Delete git branch after merge? [You should feel perfectly safe deleting the branch after the merge](https://softwareengineering.stackexchange.com/questions/207423/when-should-we-clean-up-old-no-longer-used-git-branches)
 
-> "If the only tool you have is a hammer, you tend to see every problem as a nail."
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
 
 ## React.js
+
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
 
 ### General
 
@@ -94,6 +100,8 @@ We have to follow this pattern of writing clean React components. Notice the par
 - Name props using English, and not number.
   - e.g. `size="s"` instead of `size={4}`
 
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
+
 ## `styled-jsx`
 
 - Aware of unused CSS styling.
@@ -103,7 +111,34 @@ We have to follow this pattern of writing clean React components. Notice the par
 
 > [vercel/styled-jsx](https://github.com/vercel/styled-jsx)
 
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
+
+## Visual Studio Code Crucial Shortcuts
+
+Shortcuts on **VSCode** improve productivity by miles. E.g. Navigating around files, functions, codes, windows, etc.
+
+### Windows
+
+| Feature | Shortcut |
+| --- | --- |
+| Fold/Unfold functions | [Link](https://stackoverflow.com/questions/30067767/how-do-i-collapse-sections-of-code-in-visual-studio-code-for-windows) |
+| Focus mode | Ctrl + K -> Z |
+| Search/review functions | Ctrl + Shift + O |
+| Open terminal | Ctrl + ` (tilde) |
+
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
+
+## Reading Materials
+
+### Software Engineer
+
+- [A Philosophy of Software Design | John Ousterhout | Talks at Google](https://www.youtube.com/watch?v=bmSAYlu0NcY)
+
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
+
 ## Contributors
 
 - Jasper Yap
 - Yee Han
+
+<div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
