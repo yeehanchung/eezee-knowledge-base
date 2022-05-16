@@ -13,17 +13,14 @@ The learnings are not limited to through code reviews.
 - [Quotes](#quotes)
 - [React.js](#reactjs)
 - [styled-jsx](#styled-jsx)
+- [Eezee Exclusive](#eezee-exclusive)
 - [**Reading Materials**](#reading-materials)
 - [Contributors](#contributors)
 
 ## Advice
 
+- DRY - Do not repeat yourself
 - Always good to remind the pair programmer where the last code review left off.
-- 3 principles by Jasper:
-  - Do not repeat yourself
-  - Feel fast using `contentHidden` to improve user-experience. E.g. Grey screen when navigating on eezee.sg.
-    - Tips: contentHidden is a **contextType** we use on React to hide content as we want.
-  - Re-use functions
 - Align with UI/UX designers is the most important in creating a robust design system and user-interface components. e.g. no abnormal paddings and sizes.
 - Design system is the most important stuff for Frontend Engineers.
 - Do not [premature optimization](https://ubiquity.acm.org/article.cfm?id=1513451).
@@ -103,11 +100,6 @@ We have to follow this pattern of writing clean React components. Notice the par
 ## `styled-jsx`
 
 - Aware of unused CSS styling.
-- Design system `<Row>` & `<Col>` are sufficient, do not use `margin left & right`, or `display: flex`;
-- When to use `:global`?
-  - situation like `.ctn :global(.count-ctn)` inside a component because `.ctn` will have its unique jsx class name as the parent element to specifically target its child element.
-
-> [vercel/styled-jsx](https://github.com/vercel/styled-jsx)
 
 <div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
 
@@ -127,6 +119,14 @@ Shortcuts on **VSCode** improve productivity by miles. E.g. Navigating around fi
 <div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
 
 ## Eezee Exclusive
+
+- Provide better UX for users using `contentHidden` to improve user-experience. E.g. Grey screen when navigating on eezee.sg.
+  - Tips: contentHidden is a **contextType** we use on React to hide content as we want.
+- Design system `<Row>` & `<Col>` are sufficient, do not use `margin left & right`, or `display: flex`;
+- When to use `:global`?
+  - situation like `.ctn :global(.count-ctn)` inside a component because `.ctn` will have its unique jsx class name as the parent element to specifically target its child element.
+
+> [vercel/styled-jsx](https://github.com/vercel/styled-jsx)
 
 <div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
 
