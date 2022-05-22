@@ -16,12 +16,12 @@ It's 2022. Who doesn't like things short and simple? Thus, this guide is kept as
 ```
 # A commit message:
 
-feat(navbar): add shopping list
+feat(components/navbar): add shopping list
 
 # Breakdown:
 
 1. feat:                    > Type of commit
-2  (navbar)                 > Scope (omit this if changes are to more than two components)
+2  (components/navbar)      > Scope & Type (omit this if changes are related to more than 2 things). **Not limited to components**.
 3. add                      > Present tense
 4. add shopping list        > Summary of the commit
 5. feat: add shopping list  > All are lowercase
