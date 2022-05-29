@@ -137,5 +137,6 @@ Shortcuts on **VSCode** improve productivity by miles. E.g. Navigating around fi
 - [Article] [How to Be a 10x Software Engineer](https://medium.com/@_michaellin/how-to-be-a-10x-engineer-fdac2a5a1bd5)
 - [Video] [A Philosophy of Software Design | John Ousterhout | Talks at Google](https://www.youtube.com/watch?v=bmSAYlu0NcY)
 - [Video] [How to become a Staff Software Engineer? - Aaron Rehaag (Google Staff Software Engineer)](https://www.youtube.com/watch?v=HozTzNBstLc)
+- [Book] [Software Engineering at Google](https://abseil.io/resources/swe-book)
 
 <div align="right"><a href="#eezee-knowledge-base">Back to Top</a></div>
