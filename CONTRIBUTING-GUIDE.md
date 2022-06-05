@@ -16,12 +16,17 @@ It's 2022. Who doesn't like things short and simple? Thus, this guide is kept as
 ```
 # A commit message:
 
-feat(navbar): add shopping list
+Example 1: fix(design/navbar): incorrect marketplace redirect
+Example 2: feat(components/cart-dashboard): new interface v2
+Example 3: refactor(app-shell/app-shell-eezee): minor refactoring
+
+> Include `prefix` of path level 1 is sufficient. 
+> E.g. the paths configured inside `tsconfig.json`. 
 
 # Breakdown:
 
 1. feat:                    > Type of commit
-2  (navbar)                 > Scope (omit this if changes are to more than two components)
+2  ([prefix]/navbar)        > Scope (omit this if changes are to more than two components)
 3. add                      > Present tense
 4. add shopping list        > Summary of the commit
 5. feat: add shopping list  > All are lowercase
@@ -48,32 +53,7 @@ feat(navbar): add shopping list
 - PR could be created to fix issues that come from **Canny**.
 - Your teammates appreciate them as PR is easier to be reviewed.
 
-### New PR?
-
-- All PR should be opened against the `main`/`master` branch.
-- MUST use template below:
-
-```
-> Input examples: Yes (with elaboration), date, N/A, No, etc.
-
-## Requested on Canny? (tag GitHub issue if applicable)
-
-## Figma Link
-
-## Reviewed by `PMs`?
-
-> E.g. Yes with elaboration, date, N/A, etc.
-
-## Reviewed by `UI/UX Designers`?
-
-## Reviewed by `QA`?
-
-## Overview
-
-## Test Plan (screenshots, videos, etc.)
-```
-
-### Tips
+## Tips
 
 - Linking a PR to an issue using a keyword.
 
