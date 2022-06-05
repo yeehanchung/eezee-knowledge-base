@@ -16,6 +16,7 @@ It's 2022. Who doesn't like things short and simple? Thus, this guide is kept as
 ```
 # A commit message:
 
+<<<<<<< HEAD
 Example 1: fix(design/navbar): incorrect marketplace redirect
 Example 2: feat(components/cart-dashboard): new interface v2
 Example 3: refactor(app-shell/app-shell-eezee): minor refactoring
@@ -26,7 +27,11 @@ Example 3: refactor(app-shell/app-shell-eezee): minor refactoring
 # Breakdown:
 
 1. feat:                    > Type of commit
+<<<<<<< HEAD
 2  ([prefix]/navbar)        > Scope (omit this if changes are to more than two components)
+=======
+2  (components/navbar)      > Scope & Type (omit this if changes are related to more than 2 things). **Not limited to components**.
+>>>>>>> dbb13d42d2bd1d3422a97242401d716a472c24a1
 3. add                      > Present tense
 4. add shopping list        > Summary of the commit
 5. feat: add shopping list  > All are lowercase
